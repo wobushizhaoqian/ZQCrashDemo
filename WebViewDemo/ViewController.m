@@ -27,6 +27,9 @@
     webView.navigationDelegate = self;
     [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.baidu.com/"]]];
     [self.view addSubview:webView];
+    
+    
+    NSLog(@"hahah");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
